@@ -26,7 +26,7 @@
 
 
     /*Formatação dos textos na seção conteudo*/
-        .formatacao-paragrafos{
+        .p-formatacao-paragrafos{
             text-align: justify;
             font-size: 1em;
             font-family: Arial, Helvetica, sans-serif;
@@ -39,23 +39,6 @@
         }
 
     /*Inversão da seção de texto a direita*/
-        .versao-mobile{
-            flex-direction: column-reverse;
-        }
-
-
-        .titulo-sobremim{
-            color: black;
-            margin-top: 1%;
-            width: 100%;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-
-    .alinhamentoft-sobremim{
-        width: 100%;
-    }
 
     .paragrafo{
         color: black;
@@ -65,7 +48,7 @@
         text-align: justify;
 
     }
-
+/*Configuração da tabela de objetivos do conteudo*/
     #dv-area-tabela{
         display: flex;
         margin-top: 2%;
@@ -86,21 +69,6 @@
         height: 300px;    
 }
 
-    .dv-tamanho-imagem{
-        display: flex;
-        flex-direction: column;    
-    }
-
-
-    .sobre-mim{
-        display: flex;
-        flex-direction: column;
-        color: black;
-    }
-    .dv-sobremim{
-        flex-direction: column;
-        width: 100%;
-    }
     .h2-titulo-princobjetivos{
         text-align: center;
         margin-top: 2%;
@@ -108,4 +76,5 @@
         color: black;
         width: 100%;
     }
+/*Fim da configuração da tabela de objetivos*/
 }
